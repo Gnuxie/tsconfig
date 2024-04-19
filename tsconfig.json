@@ -22,12 +22,5 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noImplicitAny": true
-  },
-  "exclude": [
-    "node_modules",
-    "dist"
-  ],
-  "include": [
-    "src/**/*"
-  ]
+  }
 }
