@@ -4,10 +4,13 @@
   "main": "src/index.js",
   "type": "CommonJS",
   "scripts": {
+    "copy-templates": "scripts/copy-templates.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "templates/*",
+    "scripts/*"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.7.0",

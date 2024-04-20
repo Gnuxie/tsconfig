@@ -1,0 +1,4 @@
+{
+    "extends": "gnuxie-tsconfig/tsconfig.json"
+}
+
