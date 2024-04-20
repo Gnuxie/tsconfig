@@ -6,9 +6,7 @@
       "ESNext"
     ],
     "declaration": true,
-    "declarationDir": "dist",
     "declarationMap": true,
-    "outDir": "dist",
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
