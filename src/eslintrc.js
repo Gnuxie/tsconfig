@@ -1,5 +1,5 @@
 
-export const gnuxieEslint = {
+module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   plugins: ['@typescript-eslint', 'prettier'],
   extends: [

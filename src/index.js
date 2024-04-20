@@ -1,1 +1,3 @@
-export * from './eslintrc.js';
+module.exports = {
+  gnuxieEslint: require('./eslintrc.js')
+};
