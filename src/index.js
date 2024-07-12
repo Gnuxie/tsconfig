@@ -1,3 +1,1 @@
-module.exports = {
-  gnuxieEslint: require('./eslintrc.js')
-};
+export { default as gnuxieEslint } from './eslint9.mjs';
