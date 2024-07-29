@@ -19,7 +19,8 @@
   "files": [
     "tsconfig.json",
     "templates/*",
-    "scripts/*"
+    "scripts/*",
+    "src/*"
   ],
   "dependencies": {},
   "peerDependencies": {
