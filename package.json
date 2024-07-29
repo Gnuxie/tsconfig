@@ -1,9 +1,17 @@
 {
-  "name": "gnuxie-tsconfig",
+  "name": "@gnuxie/tsconfig",
   "version": "0.4.0",
   "main": "src/index.js",
   "type": "module",
   "license": "MIT",
+  "author": {
+    "name": "Gnuxie",
+    "email": "Gnuxie@protonmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/Gnuxie/tsconfig.git",
+    "type": "git"
+  },
   "scripts": {
     "copy-templates": "scripts/copy-templates.sh",
     "test": "echo \"Error: no test specified\" && exit 1"

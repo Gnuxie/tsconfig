@@ -8,7 +8,7 @@ Initialise your project with yarn or npm.
 
 Then add the following deps `yarn add --dev eslint @eslint/js @types/eslint__js typescript typescript-eslint`
 
-Then add `"git+https://github.com/Gnuxie/tsconfig.git"` as a dev dependency.
+Then add `@gnuxie/tsconfig` as a dev dependency.
 
 Then run `npm explore gnuxie-tsconfig -- npm run copy-templates`.
 
