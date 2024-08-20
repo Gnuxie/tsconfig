@@ -10,6 +10,6 @@ Then add the following deps `yarn add --dev eslint @eslint/js @types/eslint__js 
 
 Then add `@gnuxie/tsconfig` as a dev dependency.
 
-Then run `npm explore gnuxie-tsconfig -- npm run copy-templates`.
+Then run `node_modules/@gnuxie/tsconfig/scripts/copy-templates.sh`.
 
 With some minor changes to `package.json`, repository should be ready to go!
