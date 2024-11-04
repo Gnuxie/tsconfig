@@ -35,6 +35,6 @@
     "@types/eslint__js": "^8.42.3",
     "eslint": "^9.6.0",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.0"
+    "typescript-eslint": "^8.0.0"
   }
 }
