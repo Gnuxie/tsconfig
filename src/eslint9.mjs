@@ -40,7 +40,7 @@ export default tseslint.config({
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
         '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+        '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', caughtErrorsIgnorePattern: "^_" }],
         // we implement a lot of interfaces that return promises with synchronous functions.
         "require-await": "off",
         "@typescript-eslint/require-await": "off",
@@ -54,6 +54,8 @@ export default tseslint.config({
         "@typescript-eslint/no-extraneous-class": "off",
         // We want to be able to create infinite loops.
         "@typescript-eslint/no-unnecessary-condition": ['error', { allowConstantLoopConditions: true }],
+        // This rule is unstable as hell and tries to apply itself to interfaces.
+        "@typescript-eslint/no-unnecessary-type-parameters": 'off',
       },
     ignores: [...ignores, '**/*.js', '**/*.jsx'],
 });
