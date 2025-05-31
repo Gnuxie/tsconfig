@@ -6,7 +6,7 @@ This is a typescript project template / source for my typescript project config.
 
 Initialise your project with yarn or npm.
 
-Then add the following deps `yarn add --dev eslint @eslint/js @types/eslint__js typescript typescript-eslint`
+Then add the following deps `yarn add --dev eslint @eslint/js typescript typescript-eslint`
 
 Then add `@gnuxie/tsconfig` as a dev dependency.
 
