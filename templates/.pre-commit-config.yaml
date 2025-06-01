@@ -7,7 +7,7 @@
 # See https://pre-commit.ci for more information
 ci:
   autoupdate_schedule: monthly
-  skip: [yarn-lint]
+  skip: [npm-lint, npm-build]
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
@@ -29,9 +29,15 @@ repos:
       - id: reuse
   - repo: local
     hooks:
-      - id: yarn-lint
+      - id: npm-build
         name: linter
-        entry: corepack yarn lint
+        entry: npm run build
+        language: system
+  - repo: local
+    hooks:
+      - id: npm-lint
+        name: linter
+        entry: npm run lint
         language: system
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: 0.29.4
